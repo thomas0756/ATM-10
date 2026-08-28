@@ -17,8 +17,8 @@
 			image: "atm:textures/questpics/neovitae/neovitae.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 16.5d
-			y: -5.0d
+			x: 19.75d
+			y: -4.5d
 		}
 		{
 			click_action: "none:"
@@ -473,7 +473,6 @@
 				{
 					id: "79943EB3B4E4F40B"
 					item: { count: 1, id: "neovitae:tabula_robur" }
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -550,6 +549,51 @@
 			}]
 			x: 12.25d
 			y: 2.25d
+		}
+		{
+			dependencies: ["1BA15CF10FD2E961"]
+			icon: {
+				components: {
+					"neovitae:max_upgrade_points": 100
+					"neovitae:upgrades": {
+						"neovitae:exp/arrow_protect": 1.0f
+						"neovitae:exp/digging": 1.0f
+						"neovitae:exp/experienced": 1.0f
+						"neovitae:exp/fall_protect": 1.0f
+						"neovitae:exp/fire_resist": 1.0f
+						"neovitae:exp/health": 1.0f
+						"neovitae:exp/jump": 1.0f
+						"neovitae:exp/knockback_resist": 1.0f
+						"neovitae:exp/melee_damage": 1.0f
+						"neovitae:exp/physical_protect": 1.0f
+						"neovitae:exp/poison_resist": 1.0f
+						"neovitae:exp/repair": 1.0f
+						"neovitae:exp/self_sacrifice": 1.0f
+						"neovitae:exp/speed": 1.0f
+						"neovitae:exp/sprint_attack": 1.0f
+					}
+				}
+				id: "neovitae:sentient_plate"
+			}
+			id: "37F69B333C97AC32"
+			tasks: [{
+				id: "076BFD9CD37072E7"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:sentient_upgrade_set)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37F69B333C97AC32"]
+			id: "71874ED908F6F72C"
+			tasks: [{
+				id: "173FFCB224EE429A"
+				item: { count: 1, id: "neovitae:training_bracelet" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
 		}
 	]
 }
