@@ -509,5 +509,47 @@
 			x: 6.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["20FE6C7DE3D6206E"]
+			icon_scale: 0.8d
+			id: "1B63D4B24B30C20F"
+			shape: "diamond"
+			tasks: [{
+				id: "4DF248A55B7D7E92"
+				item: { count: 1, id: "neovitae:primitive_hydration_cell" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["20FE6C7DE3D6206E"]
+			icon_scale: 0.8d
+			id: "736C00F917B82E90"
+			shape: "diamond"
+			tasks: [{
+				id: "075D9D3B9E3F6ED8"
+				item: { count: 1, id: "neovitae:sanguine_reverter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20FE6C7DE3D6206E"]
+			icon: {
+				id: "neovitae:basic_cutting_fluid"
+			}
+			icon_scale: 0.8d
+			id: "3FE985383428D23D"
+			shape: "diamond"
+			tasks: [{
+				id: "78A6CE5BD71457AD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:athanor_tool/cutting_fluids)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 2.25d
+		}
 	]
 }
