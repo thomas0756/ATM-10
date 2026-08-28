@@ -50,6 +50,16 @@
 			x: 14.0d
 			y: 1.05d
 		}
+		{
+			click_action: "none:"
+			height: 1.25d
+			id: "785534BDF78C0D5A"
+			image: "neovitae:models/alchemyarrays/defaultarray"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: -3.0d
+		}
 	]
 	order_index: 6
 	quest_links: [ ]
@@ -594,6 +604,156 @@
 			}]
 			x: 13.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["069B39105A0D32A9"]
+			icon: {
+				id: "neovitae:throwing_dagger"
+			}
+			id: "66827D0DD7CCD3E7"
+			tasks: [
+				{
+					count: 16L
+					id: "6DD4404E411A42D7"
+					item: { count: 1, id: "neovitae:throwing_dagger" }
+					type: "item"
+				}
+				{
+					id: "3028C97D150C0D84"
+					item: { components: { "neovitae:spiritus_amount": 2.0106203895474755d }, count: 1, id: "neovitae:base_spiritus_soul_raw" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50815F48B9179B1F"]
+			id: "069B39105A0D32A9"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "603E3DAC531572CC"
+				item: { count: 1, id: "neovitae:tabula_vitae" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"206BD489C4CD4FD4"
+				"069B39105A0D32A9"
+			]
+			id: "6117BC77F2F38AD9"
+			shape: "none"
+			tasks: [{
+				id: "12A5687B45EFB3B1"
+				item: { count: 1, id: "neovitae:arcane_scribe_tool" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66827D0DD7CCD3E7"]
+			id: "7F06AA94D8203429"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "4384D7A58149EECE"
+				item: { count: 1, id: "neovitae:hellfire_forge" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7F06AA94D8203429"]
+			id: "7F5A61C910DDAFFB"
+			tasks: [{
+				count: 4L
+				id: "2CFC206FB5353B78"
+				item: { components: { "neovitae:spiritus_amount": 64.0d }, count: 1, id: "neovitae:spiritus_gem_petty" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F06AA94D8203429"]
+			id: "740193EA8DB5095B"
+			tasks: [{
+				id: "5BA2BC1F31DDBD5C"
+				item: { count: 1, id: "neovitae:sentient_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7F06AA94D8203429"]
+			id: "74C627D2A8822A07"
+			tasks: [{
+				id: "0AAE54FB59C038BF"
+				item: { count: 1, id: "neovitae:sentient_scythe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F06AA94D8203429"]
+			icon: {
+				id: "neovitae:sentient_pickaxe"
+			}
+			id: "60CC4446A2280152"
+			tasks: [
+				{
+					id: "4C48D4FC45FCA0FD"
+					item: { count: 1, id: "neovitae:sentient_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "30BC237CFE617384"
+					item: { count: 1, id: "neovitae:sentient_axe" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33EC4BE499787763"
+					item: { count: 1, id: "neovitae:sentient_shovel" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7F06AA94D8203429"
+				"2B80B9B87D3D586D"
+			]
+			id: "03F57B09CCB0F030"
+			tasks: [{
+				id: "1600BB92B6D121EB"
+				item: { count: 1, id: "neovitae:tipped_throwing_dagger" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["069B39105A0D32A9"]
+			id: "2B80B9B87D3D586D"
+			tasks: [{
+				id: "618B9A5E70B5FA2D"
+				item: { count: 1, id: "neovitae:alchemy_flask" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
 		}
 	]
 }
