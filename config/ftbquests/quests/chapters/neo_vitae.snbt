@@ -193,6 +193,7 @@
 			dependencies: [
 				"14A9904D4ACB3ED1"
 				"4FD5066EED19F5F1"
+				"2A1CBBFF9F40A2E1"
 			]
 			icon: {
 				id: "neovitae:master_ritual_stone"
@@ -754,6 +755,18 @@
 			}]
 			x: 3.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["6117BC77F2F38AD9"]
+			hide_dependent_lines: true
+			id: "2A1CBBFF9F40A2E1"
+			tasks: [{
+				id: "4A86827A179D8D18"
+				item: { count: 1, id: "neovitae:sigil_divination" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -3.0d
 		}
 	]
 }
