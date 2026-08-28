@@ -6,7 +6,7 @@
 	filename: "neo_vitae"
 	group: "02FE661031A105D8"
 	icon: {
-		id: "neovitae:crystallarium_maleficum"
+		id: "neovitae:ara_vitae"
 	}
 	id: "76A0FBADACAD322B"
 	images: [
