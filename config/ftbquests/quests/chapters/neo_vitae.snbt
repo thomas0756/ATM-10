@@ -17,8 +17,8 @@
 			image: "atm:textures/questpics/neovitae/neovitae.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 14.5d
-			y: -5.5d
+			x: 16.5d
+			y: -5.0d
 		}
 		{
 			click_action: "none:"
@@ -30,25 +30,484 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			click_action: "none:"
+			height: 0.3d
+			id: "70E18B5C4ED30808"
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 14.8d
+			y: 1.75d
+		}
+		{
+			click_action: "none:"
+			height: 0.3d
+			id: "28A0FADF219ABADC"
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 14.0d
+			y: 1.05d
+		}
 	]
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "538E28637FF76912"
-		invisible: true
-		optional: true
-		shape: "circle"
-		tasks: [
-			{
-				id: "6D5BE02E9FAED45C"
-				type: "checkmark"
+	quests: [
+		{
+			id: "538E28637FF76912"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "6D5BE02E9FAED45C"
+					type: "checkmark"
+				}
+				{
+					id: "7DA13EB040BC1C19"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "61E2740D6817748E"
+			rewards: [{
+				id: "0AA3619C3758FB36"
+				item: {
+					components: {
+						"modonomicon:book_id": "neovitae:guide"
+					}
+					count: 1
+					id: "neovitae:guide_book"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1C7EB39C29F8A84C"
+				item: { count: 1, id: "neovitae:ara_vitae" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E2740D6817748E"]
+			id: "7EFBC608C187C4DE"
+			tasks: [{
+				id: "455E48745B05D0E6"
+				item: { count: 1, id: "neovitae:blood_orb_weak" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EFBC608C187C4DE"]
+			id: "50815F48B9179B1F"
+			tasks: [{
+				id: "6735DA7A072DCF1A"
+				item: { count: 1, id: "neovitae:tabula_rasa" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50815F48B9179B1F"]
+			id: "21CD311485F6CF64"
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "584F171A086F8FA1"
+				item: { count: 1, id: "neovitae:rune_blank" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			icon: {
+				id: "neovitae:ara_vitae"
 			}
-			{
-				id: "7DA13EB040BC1C19"
+			id: "26450B2EC4BF4BC5"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "43B949817236626D"
 				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26450B2EC4BF4BC5"]
+			icon: {
+				id: "neovitae:ara_vitae"
 			}
-		]
-		x: 0.0d
-		y: 2.0d
-	}]
+			id: "78A828BF48F3F449"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "5F82CE3A37911944"
+					item: { count: 1, id: "neovitae:blood_stained_glass" }
+					type: "item"
+				}
+				{
+					id: "6C8F94AF96182058"
+					type: "checkmark"
+				}
+			]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78A828BF48F3F449"]
+			id: "14A9904D4ACB3ED1"
+			tasks: [{
+				id: "59C8095AFFDA0909"
+				item: { count: 1, id: "neovitae:blood_orb_magician" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14A9904D4ACB3ED1"
+				"4FD5066EED19F5F1"
+			]
+			icon: {
+				id: "neovitae:master_ritual_stone"
+			}
+			id: "41FAB9A31125F9E6"
+			rewards: [{
+				id: "449E08BC3B42E9F3"
+				item: {
+					count: 1
+					id: "neovitae:ritual_reader"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "4E884F690A3603DA"
+					item: { count: 1, id: "neovitae:master_ritual_stone" }
+					type: "item"
+				}
+				{
+					id: "08599AD3BA8B4289"
+					item: { count: 1, id: "neovitae:ritual_diviner" }
+					type: "item"
+				}
+				{
+					id: "75CFA30B53C92AC6"
+					item: { count: 1, id: "neovitae:activation_crystal_weak" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41FAB9A31125F9E6"]
+			icon: {
+				id: "neovitae:inversion_pillar"
+			}
+			id: "78F33537180B2D6E"
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 36L
+					id: "3926745DE4FE2C7C"
+					item: { count: 1, id: "neovitae:ritual_stone" }
+					type: "item"
+				}
+				{
+					advancement: "neovitae:neovitae/edge_of_hidden_realm"
+					criterion: ""
+					id: "24E8BA613EAAD9C2"
+					type: "advancement"
+				}
+			]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78F33537180B2D6E"]
+			icon: {
+				id: "neovitae:strong_tau"
+			}
+			id: "374C299FCEA3E243"
+			tasks: [
+				{
+					id: "740DEAE2ECAA900A"
+					item: { count: 1, id: "neovitae:weak_tau" }
+					type: "item"
+				}
+				{
+					id: "4C4C4D00ACCD3140"
+					item: { count: 1, id: "neovitae:strong_tau" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"374C299FCEA3E243"
+				"20FE6C7DE3D6206E"
+			]
+			id: "711C0EFAB083E742"
+			tasks: [{
+				id: "0FD4606D9BB9AC6C"
+				item: { count: 1, id: "neovitae:weak_blood_shard" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14A9904D4ACB3ED1"]
+			id: "20FE6C7DE3D6206E"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "369EA08FC4519603"
+				item: { count: 1, id: "neovitae:athanor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["711C0EFAB083E742"]
+			icon: {
+				id: "neovitae:ara_vitae"
+			}
+			id: "286C9B7D5F16D05C"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4C443B7B56520793"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/t4_capstones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7B5FDE6097101F03"
+					type: "checkmark"
+				}
+			]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["286C9B7D5F16D05C"]
+			icon: {
+				id: "neovitae:standard_key"
+			}
+			id: "3ECA3E639BB3BD06"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "44973AA062A16D97"
+					item: { count: 1, id: "neovitae:ritual_diviner_dusk" }
+					type: "item"
+				}
+				{
+					count: 69L
+					id: "099B0BC24B08BEC4"
+					item: { count: 1, id: "neovitae:ritual_stone" }
+					type: "item"
+				}
+				{
+					id: "2E28436814499FBA"
+					item: { count: 1, id: "neovitae:standard_key" }
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["286C9B7D5F16D05C"]
+			id: "217471D1622EEB43"
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "42D5EFED0826D57C"
+				item: { count: 1, id: "neovitae:teleposer" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3ECA3E639BB3BD06"]
+			id: "46A33EFA9641F0BE"
+			tasks: [{
+				id: "693CC69735C90638"
+				item: { count: 1, id: "neovitae:ingot_hellforged" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ECA3E639BB3BD06"]
+			icon: {
+				id: "neovitae:mine_entrance_key"
+			}
+			id: "1F127DF65F360647"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5C3FA5B2FCE74E54"
+					item: { count: 1, id: "neovitae:mine_entrance_key" }
+					type: "item"
+				}
+				{
+					entity: "neovitae:daemonium_doloris"
+					icon: {
+						id: "minecraft:diamond_sword"
+					}
+					id: "03A0A267BBE435EA"
+					nbt_filter: "{IsForeman: 1b}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46A33EFA9641F0BE"]
+			icon: {
+				id: "neovitae:ara_vitae"
+			}
+			id: "2109EC9682B1837B"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "20BAE105ACB79624"
+					item: { count: 1, id: "neovitae:hellforged_block" }
+					type: "item"
+				}
+				{
+					id: "1E79AC895B686163"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2109EC9682B1837B"]
+			icon: {
+				id: "neovitae:ara_vitae"
+			}
+			id: "2072F1FCBAC1991A"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "71F56B7D116E5CB9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/t6_capstones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2109EC9682B1837B"]
+			id: "0A34EE0389E5F6BD"
+			tasks: [{
+				id: "567E6613D473F571"
+				item: { count: 1, id: "neovitae:blood_orb_archmage" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2072F1FCBAC1991A"]
+			id: "7D5A6EBC2BBB94F1"
+			tasks: [{
+				id: "2FC9061EA88987B4"
+				item: { count: 1, id: "neovitae:blood_orb_transcendent" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["286C9B7D5F16D05C"]
+			id: "1BA15CF10FD2E961"
+			tasks: [{
+				id: "1B2248471FD844E1"
+				item: { count: 1, id: "neovitae:blood_orb_master" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26450B2EC4BF4BC5"]
+			icon: {
+				id: "neovitae:tabula_robur"
+			}
+			id: "4FD5066EED19F5F1"
+			tasks: [
+				{
+					id: "79943EB3B4E4F40B"
+					item: { count: 1, id: "neovitae:tabula_robur" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0492A5AED34B1486"
+					item: { count: 1, id: "neovitae:tabula_animata" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5AD3E32A8F45D001"
+					item: { count: 1, id: "neovitae:tabula_spiritus" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23F0B68215F225FE"
+					item: { count: 1, id: "neovitae:tabula_aetherea" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26450B2EC4BF4BC5"]
+			id: "206BD489C4CD4FD4"
+			tasks: [{
+				id: "50DD77987CDE5174"
+				item: { count: 1, id: "neovitae:blood_orb_apprentice" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+	]
 }
