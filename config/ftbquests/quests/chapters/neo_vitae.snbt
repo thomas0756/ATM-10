@@ -24,8 +24,8 @@
 			click_action: "none:"
 			height: 1.7d
 			id: "61559E28A8BA03DA"
-			image: "forbidden_arcanus:block/liquid/blood_flow"
-			rotation: 45.0d
+			image: "neovitae:block/essentia_vitae_flowing"
+			rotation: -45.0d
 			width: 1.7d
 			x: 0.0d
 			y: 0.0d
