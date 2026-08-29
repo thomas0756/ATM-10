@@ -8,6 +8,14 @@
 	quest.0CBD78CE57688C20.title: "Spiritus Crystals"
 	quest.14A9904D4ACB3ED1.quest_desc: ["The second tier of &9Orb&r opens up significant capabilities as a Vitaemancer. Your 150,000 &5Anima&r capacity is enough to open the &3Demon Realm&r, and the &9Orb&r is powerful enough to craft the Athanor, unlocking a multitude of new techniques and resources."]
 	quest.14A9904D4ACB3ED1.quest_subtitle: "Orb Tier II"
+	quest.1B63D4B24B30C20F.quest_desc: [
+		"When placed withing the Athanor, the &1Hydration Cell&r has many uses:"
+		""
+		"- Turning dirt into mud"
+		"- Stripping &zdyes&r"
+		"- &3Oxidising&r &6Copper&r"
+		"- &2Growing moss&r on cobblestone"
+	]
 	quest.1B63D4B24B30C20F.quest_subtitle: "The Vitaemancer's Well"
 	quest.1B63D4B24B30C20F.title: "Hydrating"
 	quest.1BA15CF10FD2E961.quest_subtitle: "Orb Tier III"
@@ -24,6 +32,7 @@
 	]
 	quest.2072F1FCBAC1991A.quest_subtitle: "A Cathedral of Blood and Stone"
 	quest.2072F1FCBAC1991A.title: "Ara Tier VI"
+	quest.20FE6C7DE3D6206E.quest_desc: ["The Athanor is a crucible fueled by &4Essentia Vitae&r that transcends mere smelting. Within it, an experienced Vitaemancer can cover dry stone with moss, disenchant equipment, unmake the most powerful of runes, and, most importantly, distill &cSaturated Tau&r into &4Weak Blood Shards&r."]
 	quest.20FE6C7DE3D6206E.quest_subtitle: "The Vitaemancer's Furnace"
 	quest.20FE6C7DE3D6206E.title: "The Athanor"
 	quest.2109EC9682B1837B.quest_desc: [
@@ -84,6 +93,14 @@
 	quest.37F69B333C97AC32.title: "Sentient Armor"
 	quest.3ECA3E639BB3BD06.quest_subtitle: "The deeper you delve, the more the realm reveals."
 	quest.3ECA3E639BB3BD06.title: "The Endless Dungeon"
+	quest.3FE985383428D23D.quest_desc: [
+		"Ore Processing is a relatively simple but rewarding process in Neo Vitae. It goes as follows:"
+		""
+		"- Add &ccutting fluid&r to the ore or raw metal to produce fragments."
+		"- Use a resonator on the fragments to produce gravel."
+		"- Add more &ccutting fluid&r to the gravel to turn it into dust."
+		"- Smelt the dust into ingots."
+	]
 	quest.3FE985383428D23D.quest_subtitle: "The Vitaemancer's... Mekanism?"
 	quest.3FE985383428D23D.title: "Ore Processing"
 	quest.41FAB9A31125F9E6.quest_desc: [
@@ -152,7 +169,13 @@
 	]
 	quest.66827D0DD7CCD3E7.quest_subtitle: "The Currency of the Soul"
 	quest.66827D0DD7CCD3E7.title: "Harvesting Spiritus"
+	quest.711C0EFAB083E742.quest_desc: ["&cSaturated Tau&r can be refined in the Athanor to produce &4Weak Blood Shards&r, used to craft &4Bloodstone&r and the third tier of &9Orb&r."]
 	quest.711C0EFAB083E742.quest_subtitle: "Unsettling beauty"
+	quest.736C00F917B82E90.quest_desc: [
+		"The Sanguine Reverter is a simple but useful tool in a Vitaemancer's arsenal."
+		""
+		"In the Athanor, it can separate enchantments onto individual books and unmake Reinforced Runes and &9Orbs&r."
+	]
 	quest.736C00F917B82E90.quest_subtitle: "The Vitaemancer's Grindstone"
 	quest.736C00F917B82E90.title: "Disenchanting"
 	quest.740193EA8DB5095B.quest_desc: ["The &bSentient Sword&r is a far more elegant instrument of &bSpiritus&r gathering than crude daggers. All felled enemies drop &bSpiritus&r when slain using it, feeding on every drop of &bessence&r you carry to grow stronger."]
@@ -193,6 +216,8 @@
 	task.03A0A267BBE435EA.title: "Kill the Foreman"
 	task.076BFD9CD37072E7.title: "Any Sentient Armor Piece"
 	task.1EC0CD3DC4051872.title: "48x Runes"
+	task.202F95C25A09C50E.title: "Sulfur Dust"
+	task.218A1C9357C5ED19.title: "Any Resonator"
 	task.4C22D821E63EF9F7.title: "16x Runes"
 	task.4C443B7B56520793.title: "4x Bloodstone Blocks"
 	task.632FA8B62978FD9F.title: "72x Runes"

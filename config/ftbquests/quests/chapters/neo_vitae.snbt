@@ -549,11 +549,18 @@
 			icon_scale: 0.8d
 			id: "3FE985383428D23D"
 			shape: "diamond"
-			tasks: [{
-				id: "78A6CE5BD71457AD"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:athanor_tool/cutting_fluids)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78A6CE5BD71457AD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:athanor_tool/cutting_fluids)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "218A1C9357C5ED19"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:athanor_tool/resonator)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 12.25d
 			y: 2.25d
 		}
@@ -832,15 +839,19 @@
 			size: 1.25d
 			tasks: [
 				{
+					id: "202F95C25A09C50E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/sulfur)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
 					id: "5966201EB3D135ED"
 					item: { count: 1, id: "neovitae:animus_mote" }
 					type: "item"
 				}
 				{
-					advancement: "neovitae:neovitae/transmute_ruina"
-					criterion: ""
-					id: "01CE50EF35D43FB9"
-					type: "advancement"
+					id: "164DF5D5E6B23C16"
+					item: { count: 1, id: "neovitae:spiritus_ruina_catalyst" }
+					type: "item"
 				}
 			]
 			x: 18.25d
