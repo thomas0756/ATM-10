@@ -909,8 +909,8 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 2.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2AC336C29FA5B990"]
@@ -930,8 +930,146 @@
 					type: "item"
 				}
 			]
-			x: 8.25d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			id: "38651FC7A8E52D1A"
+			shape: "diamond"
+			tasks: [{
+				id: "6BE41EE28E20D0CC"
+				item: { count: 1, id: "neovitae:rune_speed" }
+				type: "item"
+			}]
+			x: 5.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["38651FC7A8E52D1A"]
+			id: "4A3007D6EE45D817"
+			shape: "diamond"
+			tasks: [{
+				id: "215989D2A6AD0734"
+				item: { count: 1, id: "neovitae:rune_acceleration" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			id: "5A896BABF15520EF"
+			shape: "diamond"
+			tasks: [{
+				id: "70DE7A7845964728"
+				item: { count: 1, id: "neovitae:rune_charging" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			icon: {
+				id: "neovitae:rune_capacity"
+			}
+			id: "467D5423924F6630"
+			shape: "diamond"
+			tasks: [{
+				id: "2DCD6D511F1E5843"
+				item: { count: 1, id: "neovitae:rune_capacity" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["467D5423924F6630"]
+			id: "301B000040AB0DCB"
+			shape: "diamond"
+			tasks: [{
+				id: "58775579F1C986EE"
+				item: { count: 1, id: "neovitae:rune_capacity_augmented" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			id: "4240D598C16E2049"
+			shape: "diamond"
+			tasks: [{
+				id: "42BEC116D4B37643"
+				item: { count: 1, id: "neovitae:rune_sacrifice" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			id: "5488FC8BF3FC5010"
+			shape: "diamond"
+			tasks: [{
+				id: "772388FE6B833294"
+				item: { count: 1, id: "neovitae:rune_sacrifice_self" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			id: "58BFF5F125C45616"
+			shape: "diamond"
+			tasks: [{
+				id: "6A0FDB85A122BAAC"
+				item: { count: 1, id: "neovitae:rune_efficiency" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			id: "76B120695C2B8B05"
+			shape: "diamond"
+			tasks: [{
+				id: "5487D299681BB40B"
+				item: { count: 1, id: "neovitae:rune_dislocation" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21CD311485F6CF64"]
+			id: "2B0DC5055878EC35"
+			shape: "diamond"
+			tasks: [{
+				id: "30E2180B92603ED5"
+				item: { count: 1, id: "neovitae:rune_orb" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ECA3E639BB3BD06"]
+			icon: {
+				id: "neovitae:rune_2_capacity"
+			}
+			id: "7D9CBB016F387B6A"
+			shape: "rsquare"
+			tasks: [{
+				id: "48900ABC37DB3E25"
+				item: { count: 1, id: "neovitae:hellforged_parts" }
+				type: "item"
+			}]
+			x: 18.25d
+			y: 1.5d
 		}
 	]
 }
