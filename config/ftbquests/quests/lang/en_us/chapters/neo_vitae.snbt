@@ -6,6 +6,7 @@
 	quest.0A34EE0389E5F6BD.quest_subtitle: "Orb Tier IV"
 	quest.0CA2D7689612E403.quest_subtitle: "Power beyond the Weak Crystal's reach"
 	quest.0CBD78CE57688C20.title: "Spiritus Crystals"
+	quest.14A9904D4ACB3ED1.quest_desc: ["The second tier of &9Orb&r opens up significant capabilities as a Vitaemancer. Your 150,000 &5Anima&r capacity is enough to open the &3Demon Realm&r, and the &9Orb&r is powerful enough to craft the Athanor, unlocking a multitude of new techniques and resources."]
 	quest.14A9904D4ACB3ED1.quest_subtitle: "Orb Tier II"
 	quest.1B63D4B24B30C20F.quest_subtitle: "The Vitaemancer's Well"
 	quest.1B63D4B24B30C20F.title: "Hydrating"
@@ -70,6 +71,13 @@
 	]
 	quest.2B80B9B87D3D586D.quest_subtitle: "Elixirs worthy of the name"
 	quest.337C20F81B4701B7.title: "Slimes of Vitae"
+	quest.374C299FCEA3E243.quest_desc: [
+		"With any luck, the &cAntechamber&r's &cSpirit Caches&r contain &cTau Fruit&r, the key to furthering your progress in Vitaemancy."
+		""
+		"It's possible to grow &cTau&r like any other crop and refine it into &coil&r, which has a range of uses, but it's not what you're after right now."
+		""
+		"There exists an alternative method to growing &cTau&r. As it grows, it draws from the &4vitality&r of living creatues on top of it, filling itself with &4Essentia Vitae&r. This &cSaturated Tau&r can be refined further to elevate the &6altar&r and craft stronger &9Orbs&r."
+	]
 	quest.374C299FCEA3E243.quest_subtitle: "A darker method of cultivation"
 	quest.374C299FCEA3E243.title: "Tau Fruit"
 	quest.37F69B333C97AC32.quest_subtitle: "Armor that learns from you"
@@ -78,6 +86,15 @@
 	quest.3ECA3E639BB3BD06.title: "The Endless Dungeon"
 	quest.3FE985383428D23D.quest_subtitle: "The Vitaemancer's... Mekanism?"
 	quest.3FE985383428D23D.title: "Ore Processing"
+	quest.41FAB9A31125F9E6.quest_desc: [
+		"Through rituals, you are able to manifest your &4Essentia Vitae&r into profound effects on the world around you. Performing one is relatively simple:"
+		""
+		"- Firstly, place a Master Ritual Stone where you intend to start the ritual."
+		"- Secondly, use the Ritual Diviner on empty air and select your ritual of choice. Use it on the Master Stone to inscribe the ritual."
+		"- Finally, ensure you have sufficient &5Anima&r and use an Activation Crystal on the Master Stone."
+		""
+		"For a full list of rituals and their effects, see the &4Scriptura Vitae&r."
+	]
 	quest.41FAB9A31125F9E6.quest_subtitle: "Inscribing circles of greater power"
 	quest.41FAB9A31125F9E6.title: "Rituals"
 	quest.423BC6A088DFA15E.quest_desc: [
@@ -98,6 +115,11 @@
 		"Fortunately, it is possible to extend the lifetime of your anointments using &cTau Oil&r and &3Hellforged Dust&r as you progress the art."
 	]
 	quest.48241C5AA8ABFA16.title: "Anointments"
+	quest.4FD5066EED19F5F1.quest_desc: [
+		"You'll quickly find that the Tabula Rasa is only useful for so many crafts. For each &6Ara&r tier you construct, an additional Tabula becomes available."
+		""
+		"To craft the next tier of Tabula, offer the previous one to the &6altar&r."
+	]
 	quest.4FD5066EED19F5F1.title: "Better Tabulae"
 	quest.50815F48B9179B1F.quest_desc: [
 		"Tabula Rasa is the fundamental substrate for all of a Vitaemancer's runes and sigils. It's crafted in the &6Ara&r from deepslate."
@@ -142,6 +164,13 @@
 	]
 	quest.78A828BF48F3F449.quest_subtitle: "The altar's hunger deepens."
 	quest.78A828BF48F3F449.title: "Ara Tier III"
+	quest.78F33537180B2D6E.quest_desc: [
+		"You perform the ritual &3Breaching the Edge of Demon Realm&r and watch in awe as a gateway is assembled in front of you."
+		""
+		"{image:atm:textures/questpics/neovitae/antechamber_portal.png width:150 height:110 align:center}"
+		""
+		"Stepping through, you arrive in the &cAntechamber&r: a small section of the &3Demon Realm&r with four doors and simple locks."
+	]
 	quest.78F33537180B2D6E.quest_subtitle: "Stepping beyond the Threshold"
 	quest.78F33537180B2D6E.title: "The Antechamber"
 	quest.7D5A6EBC2BBB94F1.quest_subtitle: "Orb Tier V"
