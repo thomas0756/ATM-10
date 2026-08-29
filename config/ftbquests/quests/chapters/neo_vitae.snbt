@@ -165,14 +165,16 @@
 			size: 1.5d
 			tasks: [
 				{
+					count: 16L
+					id: "4C22D821E63EF9F7"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/runes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
 					count: 4L
 					id: "5F82CE3A37911944"
 					item: { count: 1, id: "neovitae:blood_stained_glass" }
 					type: "item"
-				}
-				{
-					id: "6C8F94AF96182058"
-					type: "checkmark"
 				}
 			]
 			x: 8.25d
@@ -311,14 +313,16 @@
 			size: 1.5d
 			tasks: [
 				{
+					count: 28L
+					id: "77D872D6DD03B4C4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/runes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
 					count: 4L
 					id: "4C443B7B56520793"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/t4_capstones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
-				}
-				{
-					id: "7B5FDE6097101F03"
-					type: "checkmark"
 				}
 			]
 			x: 14.75d
@@ -413,14 +417,16 @@
 			size: 1.5d
 			tasks: [
 				{
+					count: 48L
+					id: "1EC0CD3DC4051872"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/runes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
 					count: 4L
 					id: "20BAE105ACB79624"
 					item: { count: 1, id: "neovitae:hellforged_block" }
 					type: "item"
-				}
-				{
-					id: "1E79AC895B686163"
-					type: "checkmark"
 				}
 			]
 			x: 20.0d
@@ -434,12 +440,20 @@
 			id: "2072F1FCBAC1991A"
 			shape: "diamond"
 			size: 1.5d
-			tasks: [{
-				count: 4L
-				id: "71F56B7D116E5CB9"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/t6_capstones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 72L
+					id: "632FA8B62978FD9F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/runes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "71F56B7D116E5CB9"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/t6_capstones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 22.0d
 			y: 0.0d
 		}
@@ -482,31 +496,11 @@
 				id: "neovitae:tabula_robur"
 			}
 			id: "4FD5066EED19F5F1"
-			tasks: [
-				{
-					id: "79943EB3B4E4F40B"
-					item: { count: 1, id: "neovitae:tabula_robur" }
-					type: "item"
-				}
-				{
-					id: "0492A5AED34B1486"
-					item: { count: 1, id: "neovitae:tabula_animata" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5AD3E32A8F45D001"
-					item: { count: 1, id: "neovitae:tabula_spiritus" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "23F0B68215F225FE"
-					item: { count: 1, id: "neovitae:tabula_aetherea" }
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "79943EB3B4E4F40B"
+				item: { count: 1, id: "neovitae:tabula_robur" }
+				type: "item"
+			}]
 			x: 8.25d
 			y: -1.5d
 		}
@@ -660,14 +654,25 @@
 		}
 		{
 			dependencies: ["66827D0DD7CCD3E7"]
+			icon: {
+				id: "neovitae:hellfire_forge"
+			}
 			id: "7F06AA94D8203429"
 			shape: "diamond"
 			size: 1.5d
-			tasks: [{
-				id: "4384D7A58149EECE"
-				item: { count: 1, id: "neovitae:hellfire_forge" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4384D7A58149EECE"
+					item: { count: 1, id: "neovitae:hellfire_forge" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F9FB81A0DC455FE"
+					item: { components: { "neovitae:spiritus_amount": 64.0d }, count: 1, id: "neovitae:spiritus_gem_petty" }
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -4.5d
 		}
@@ -675,9 +680,8 @@
 			dependencies: ["7F06AA94D8203429"]
 			id: "7F5A61C910DDAFFB"
 			tasks: [{
-				count: 4L
-				id: "2CFC206FB5353B78"
-				item: { components: { "neovitae:spiritus_amount": 64.0d }, count: 1, id: "neovitae:spiritus_gem_petty" }
+				id: "2E6B836C0B2BA3E3"
+				item: { components: { "neovitae:spiritus_amount": 256.0d }, count: 1, id: "neovitae:spiritus_gem_lesser" }
 				type: "item"
 			}]
 			x: -2.5d

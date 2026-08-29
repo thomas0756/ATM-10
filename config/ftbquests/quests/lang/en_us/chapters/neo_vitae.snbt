@@ -1,10 +1,13 @@
 {
+	quest.03F57B09CCB0F030.quest_desc: ["It's possible to apply an Elixir to an Amethyst Throwing Dagger in the Athanor, inflicting its effects on the target."]
 	quest.03F57B09CCB0F030.title: "Tipped Throwing Daggers"
-	quest.069B39105A0D32A9.quest_subtitle: "The Vitaemancer's Crafting Table"
+	quest.069B39105A0D32A9.quest_desc: ["The Tabula Vitae allows you to craft using your &4Essentia Vitae&r provided by an &cOrb&r. In addition to simpler recipes, the Tabula can be used for alchemy, producing elixirs and anointments to strengthen a Vitaemancer and their gear."]
+	quest.069B39105A0D32A9.quest_subtitle: "The Vitaemancer's Workbench"
 	quest.0A34EE0389E5F6BD.quest_subtitle: "Orb Tier IV"
 	quest.0CA2D7689612E403.quest_subtitle: "Power beyond the Weak Crystal's reach"
 	quest.0CBD78CE57688C20.title: "Spiritus Crystals"
 	quest.14A9904D4ACB3ED1.quest_subtitle: "Orb Tier II"
+	quest.1B63D4B24B30C20F.quest_subtitle: "The Vitaemancer's Well"
 	quest.1B63D4B24B30C20F.title: "Hydrating"
 	quest.1BA15CF10FD2E961.quest_subtitle: "Orb Tier III"
 	quest.1F127DF65F360647.quest_subtitle: "Breaching the deeper workings"
@@ -34,7 +37,7 @@
 	quest.26450B2EC4BF4BC5.quest_desc: [
 		"Runes in hand, you raise the &6altar&r to Tier II. Blank runes will get the job done, but they can be replaced with upgraded ones at the cardinals should you wish."
 		""
-		"The empty space beneath and around the &6Ara&r here and at subsequent tiers is to fill to your needs and liking."
+		"The empty space beneath and around the &6Ara&r here and at subsequent tiers can be filled to your needs and liking."
 		""
 		"{image:atm:textures/questpics/neovitae/ara_t2.png width:150 height:115 align:1}"
 	]
@@ -60,6 +63,7 @@
 	quest.37F69B333C97AC32.title: "Sentient Armor"
 	quest.3ECA3E639BB3BD06.quest_subtitle: "The deeper you delve, the more the realm reveals."
 	quest.3ECA3E639BB3BD06.title: "The Endless Dungeon"
+	quest.3FE985383428D23D.quest_subtitle: "The Vitaemancer's... Mekanism?"
 	quest.3FE985383428D23D.title: "Ore Processing"
 	quest.41FAB9A31125F9E6.quest_subtitle: "Inscribing circles of greater power"
 	quest.41FAB9A31125F9E6.title: "Rituals"
@@ -77,6 +81,11 @@
 	quest.538E28637FF76912.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.56CCFFCF62914EAD.quest_subtitle: "Stronger, deeper currents"
 	quest.56CCFFCF62914EAD.title: "Routing Upgrades"
+	quest.60CC4446A2280152.quest_desc: [
+		"The &bSentient Tools&r barely match Iron when starved of &bSpiritus&r, but don't judge them too harshly. When fuelled by a full &bgem&r, they surpass Netherite in strength and durability."
+		""
+		"Speaking of durability, all &bSentient equipment&r can be repaired in an anvil using crystallized &bSpiritus&r."
+	]
 	quest.60CC4446A2280152.title: "Sentient Tools"
 	quest.6117BC77F2F38AD9.quest_subtitle: "Circles inscribed by hand"
 	quest.6117BC77F2F38AD9.title: "The Alchemy Array"
@@ -87,10 +96,18 @@
 	]
 	quest.61E2740D6817748E.quest_subtitle: "A journey written in blood"
 	quest.61E2740D6817748E.title: "Neo Vitae"
+	quest.66827D0DD7CCD3E7.quest_desc: [
+		"&bSpiritus&r is the physical manifestation of the malevolence inside every mortal creature. It powers the Hellfire Forge, allowing you to craft &bsentient equipment&r that learns from your actions."
+		""
+		"As a fledgeling Vitaemancer, your only means of harvesting &bSpiritus&r is using &bThrowing Daggers&r. They mark the creatures they hit, causing them to drop spiritus when slain. Don't worry if you miss - the daggers can be picked up from the blocks they hit."
+	]
 	quest.66827D0DD7CCD3E7.quest_subtitle: "The Currency of the Soul"
 	quest.66827D0DD7CCD3E7.title: "Harvesting Spiritus"
 	quest.711C0EFAB083E742.quest_subtitle: "Unsettling beauty"
+	quest.736C00F917B82E90.quest_subtitle: "The Vitaemancer's Grindstone"
 	quest.736C00F917B82E90.title: "Disenchanting"
+	quest.740193EA8DB5095B.quest_desc: ["The &bSentient Sword&r is a far more elegant instrument of &bSpiritus&r gathering than crude daggers. All felled enemies drop &bSpiritus&r when slain using it, feeding on every drop of &bessence&r you carry to grow stronger."]
+	quest.74C627D2A8822A07.quest_desc: ["Like the &bSword&r, the &bSentient Scythe&r grows with the &bSpiritus&r you carry. Initially blunt and useful solely as a hoe, the &bScythe&r develops into a vicious tool for reaping, dealing full damage to every enemy caught in its swing to tear through hordes with ease."]
 	quest.78A828BF48F3F449.quest_desc: [
 		"Another sixteen runes allow you to elevate the &6altar&r again, making a potential twenty-four upgrades available. Around it, four pillars capped with Blood Stained Glass guide the &4essence&r to the Tier III &6Ara&r."
 		""
@@ -109,8 +126,14 @@
 		"The &cOrb&r allows you to willingly sacrifice your &4Essentia Vitae&r, the currency of the blood, to the altar by right-clicking while standing by it, or stores it for later while away. To spare your own veins, an &cOrb of Vitae&r in your off-hand will harvest from those you slay."
 	]
 	quest.7EFBC608C187C4DE.quest_subtitle: "Orb Tier Zero"
+	quest.7F06AA94D8203429.quest_desc: [
+		"The Hellfire Forge consumes &bSpiritus&r, reshaping raw malice into tools, equipment, &bgems&r, and many things besides. No Vitaemancer can progress far without one."
+		""
+		"By this point, you've probably noticed that raw &bSpiritus Essence&r doesn't stack. You'll also want to craft some &bSpiritus Gems&r, which not only save inventory space but are necessary to fuel the Forge with larger quantities of &bSpiritus&r for advanced crafts."
+	]
 	quest.7F06AA94D8203429.quest_subtitle: "The Vitaemancer's Anvil"
-	quest.7F5A61C910DDAFFB.title: "Spiritus Gems"
+	quest.7F5A61C910DDAFFB.quest_desc: ["As with your &cOrb&r, the capacity of a &bPetty Spiritus Gem&r is acceptable for simple crafts. However, as you progress in the art of Vitaemancy, you'll want to invest in larger &bgems&r."]
+	quest.7F5A61C910DDAFFB.title: "Better Spiritus Gems"
 	task.03A0A267BBE435EA.title: "Kill the Foreman"
 	task.076BFD9CD37072E7.title: "Any Sentient Armor Piece"
 	task.1EC0CD3DC4051872.title: "48x Runes"
