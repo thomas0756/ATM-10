@@ -311,6 +311,7 @@
 			size: 1.5d
 			tasks: [
 				{
+					count: 4L
 					id: "4C443B7B56520793"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/t4_capstones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
@@ -434,6 +435,7 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
+				count: 4L
 				id: "71F56B7D116E5CB9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:altar/t6_capstones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
