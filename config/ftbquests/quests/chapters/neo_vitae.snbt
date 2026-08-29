@@ -12,13 +12,13 @@
 	images: [
 		{
 			click_action: "none:"
-			height: 8.0d
+			height: 6.75d
 			id: "3A209CABD7681EDE"
 			image: "atm:textures/questpics/neovitae/neovitae.png"
 			rotation: 0.0d
-			width: 15.0d
-			x: 23.5d
-			y: 2.5d
+			width: 13.0d
+			x: 11.5d
+			y: -6.25d
 		}
 		{
 			click_action: "none:"
@@ -27,7 +27,7 @@
 			image: "neovitae:block/essentia_vitae_flowing"
 			rotation: -45.0d
 			width: 1.75d
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -79,8 +79,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.0d
-			y: -1.5d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			id: "61E2740D6817748E"
@@ -102,7 +102,7 @@
 				item: { count: 1, id: "neovitae:ara_vitae" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -113,7 +113,7 @@
 				item: { count: 1, id: "neovitae:blood_orb_weak" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.25d
 			y: 0.0d
 		}
 		{
@@ -124,7 +124,7 @@
 				item: { count: 1, id: "neovitae:tabula_rasa" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -271,8 +271,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 0.0d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -592,8 +592,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neovitae:sentient_upgrade_set)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.5d
+			x: 14.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["37F69B333C97AC32"]
@@ -638,7 +638,7 @@
 				item: { count: 1, id: "neovitae:tabula_vitae" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -753,19 +753,18 @@
 				item: { count: 1, id: "neovitae:alchemy_flask" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["6117BC77F2F38AD9"]
-			hide_dependent_lines: true
 			id: "2A1CBBFF9F40A2E1"
 			tasks: [{
 				id: "4A86827A179D8D18"
 				item: { count: 1, id: "neovitae:sigil_divination" }
 				type: "item"
 			}]
-			x: 8.25d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
@@ -791,7 +790,7 @@
 				item: { count: 1, id: "neovitae:vas_maleficum" }
 				type: "item"
 			}]
-			x: 14.75d
+			x: 16.5d
 			y: -4.5d
 		}
 		{
@@ -814,45 +813,32 @@
 					type: "item"
 				}
 			]
-			x: 16.5d
+			x: 18.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0CBD78CE57688C20"]
 			icon: {
-				id: "neovitae:spiritus_vindicta_shard"
+				id: "neovitae:animus_mote"
 			}
 			id: "424F68635A22A0DE"
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
 				{
-					id: "499E2028AB93C980"
-					item: { count: 1, id: "neovitae:spiritus_vindicta_shard" }
-					optional_task: true
+					id: "5966201EB3D135ED"
+					item: { count: 1, id: "neovitae:animus_mote" }
 					type: "item"
 				}
 				{
-					id: "31D72F15D9C2D351"
-					item: { count: 1, id: "neovitae:spiritus_nihilum_shard" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "387AC3F2B043288A"
-					item: { count: 1, id: "neovitae:spiritus_ruina_shard" }
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5F78266B029BC472"
-					item: { count: 1, id: "neovitae:spiritus_invictus_shard" }
-					optional_task: true
-					type: "item"
+					advancement: "neovitae:neovitae/transmute_ruina"
+					criterion: ""
+					id: "01CE50EF35D43FB9"
+					type: "advancement"
 				}
 			]
 			x: 18.25d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -868,8 +854,8 @@
 				id: "7699CC591701C274"
 				type: "advancement"
 			}]
-			x: 18.25d
-			y: -2.5d
+			x: 16.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7F06AA94D8203429"]
@@ -1070,6 +1056,51 @@
 			}]
 			x: 18.25d
 			y: 1.5d
+		}
+		{
+			dependencies: ["3ECA3E639BB3BD06"]
+			icon: {
+				components: {
+					"ftbquests:icon": "refinedstorage:textures/gui/sprites/warning.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "337C20F81B4701B7"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "3FE4D3032BE726AA"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [
+				{
+					entity: "neovitae:slime_vitae"
+					id: "6330EC35EFD2C33F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "14830857E2FA75FE"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6117BC77F2F38AD9"]
+			id: "423BC6A088DFA15E"
+			tasks: [{
+				id: "2F67EA91A14B4D2A"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.5d
 		}
 	]
 }
