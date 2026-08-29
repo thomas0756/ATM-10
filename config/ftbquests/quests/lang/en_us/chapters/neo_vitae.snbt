@@ -12,30 +12,47 @@
 	quest.1F4824994F6CDAFA.quest_subtitle: "Aura Farming...?"
 	quest.1F4824994F6CDAFA.title: "Burning Spiritus"
 	quest.206BD489C4CD4FD4.quest_subtitle: "Orb Tier I"
+	quest.2072F1FCBAC1991A.quest_desc: [
+		"One hundred and seventy-two runes. The pinnacle of Vitaemancy. Crystal clusters forged with remnants of the Deep Dark and the Wither cap off the Tier VI &6Ara Vitae&r."
+		""
+		"{image:atm:textures/questpics/neovitae/ara_t6.png width:150 height:105 align:center}"
+	]
 	quest.2072F1FCBAC1991A.quest_subtitle: "A Cathedral of Blood and Stone"
 	quest.2072F1FCBAC1991A.title: "Ara Tier VI"
 	quest.20FE6C7DE3D6206E.quest_subtitle: "The Vitaemancer's Furnace"
 	quest.20FE6C7DE3D6206E.title: "The Athanor"
+	quest.2109EC9682B1837B.quest_desc: [
+		"Your journey deeper into the &3Demon Realm&r and its &3Mines&r rewards you with &3Hellforged Blocks&r, allowing the &6altar&r to ascend to Tier V. It stands proud, adorned with one hundred runes, a feat of Vitaemancy."
+		""
+		"{image:atm:textures/questpics/neovitae/ara_t5.png width:150 height:115 align:center click_action:none:}"
+	]
 	quest.2109EC9682B1837B.quest_subtitle: "Few Vitaemancers dare reach this height."
 	quest.2109EC9682B1837B.title: "Ara Tier V"
 	quest.217471D1622EEB43.quest_subtitle: "Folding the fabric of reality"
+	quest.21CD311485F6CF64.quest_desc: ["Runes are the gateway to a greater &6altar&r, the next rung on the ladder of Vitaemancy. These blank runes do little by themselves, but serve as the building block for &6altar&r upgrades, both to raise the tier and increase its performance."]
 	quest.21CD311485F6CF64.title: "Blank Runes"
+	quest.26450B2EC4BF4BC5.quest_desc: [
+		"Runes in hand, you raise the &6altar&r to Tier II. Blank runes will get the job done, but they can be replaced with upgraded ones at the cardinals should you wish."
+		""
+		"The empty space beneath and around the &6Ara&r here and at subsequent tiers is to fill to your needs and liking."
+		""
+		"{image:atm:textures/questpics/neovitae/ara_t2.png width:150 height:115 align:1}"
+	]
 	quest.26450B2EC4BF4BC5.quest_subtitle: "The Ara stirs with new hunger."
 	quest.26450B2EC4BF4BC5.title: "Ara Tier II"
 	quest.26BF54453DC1E72A.title: "Crystal Automation"
+	quest.286C9B7D5F16D05C.quest_desc: [
+		"Having ventured to the edge of the &3Demon Realm&r, another twenty-eight runes and four more pillars capped with Bloodstone bring the &6Ara&r to its fourth tier."
+		""
+		"{image:atm:textures/questpics/neovitae/ara_t4.png width:150 height:80 align:center click_action:none:}"
+	]
 	quest.286C9B7D5F16D05C.quest_subtitle: "The Ara groans with barely-contained power."
 	quest.286C9B7D5F16D05C.title: "Ara Tier IV"
 	quest.2A1CBBFF9F40A2E1.quest_subtitle: "A lens into the unseen"
 	quest.2A1CBBFF9F40A2E1.title: "The Anima Network"
 	quest.2AC336C29FA5B990.quest_subtitle: "Did somebody say pattern provider?"
 	quest.2AC336C29FA5B990.title: "The Routing Network"
-	quest.2B0DC5055878EC35.quest_desc: [ ]
-	quest.2B0DC5055878EC35.quest_subtitle: ""
-	quest.2B0DC5055878EC35.title: ""
 	quest.2B80B9B87D3D586D.quest_subtitle: "Elixirs worthy of the name"
-	quest.301B000040AB0DCB.quest_desc: [ ]
-	quest.301B000040AB0DCB.quest_subtitle: ""
-	quest.301B000040AB0DCB.title: ""
 	quest.337C20F81B4701B7.title: "Slimes of Vitae"
 	quest.374C299FCEA3E243.quest_subtitle: "A darker method of cultivation"
 	quest.374C299FCEA3E243.title: "Tau Fruit"
@@ -47,43 +64,38 @@
 	quest.41FAB9A31125F9E6.quest_subtitle: "Inscribing circles of greater power"
 	quest.41FAB9A31125F9E6.title: "Rituals"
 	quest.423BC6A088DFA15E.title: "Beyond Crafting"
-	quest.4240D598C16E2049.quest_desc: [ ]
-	quest.4240D598C16E2049.quest_subtitle: ""
-	quest.4240D598C16E2049.title: ""
 	quest.424F68635A22A0DE.title: "Aspected Crystals"
-	quest.467D5423924F6630.quest_desc: [ ]
-	quest.467D5423924F6630.quest_subtitle: ""
 	quest.467D5423924F6630.title: "Capacity Rune"
 	quest.46A33EFA9641F0BE.quest_subtitle: "Ore mined from Hell itself"
 	quest.46A33EFA9641F0BE.title: "Mining for Demonite"
-	quest.4A3007D6EE45D817.quest_desc: [ ]
-	quest.4A3007D6EE45D817.quest_subtitle: ""
-	quest.4A3007D6EE45D817.title: ""
 	quest.4FD5066EED19F5F1.title: "Better Tabulae"
+	quest.50815F48B9179B1F.quest_desc: [
+		"Tabula Rasa is the fundamental substrate for all of a Vitaemancer's runes and sigils. It's crafted in the &6Ara&r from deepslate."
+		""
+		"This one should be faster than the &cOrb&r, assuming you're willing to &4sacrifice&r some more of yourself."
+	]
 	quest.538E28637FF76912.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
-	quest.5488FC8BF3FC5010.quest_desc: [ ]
-	quest.5488FC8BF3FC5010.quest_subtitle: ""
-	quest.5488FC8BF3FC5010.title: ""
 	quest.56CCFFCF62914EAD.quest_subtitle: "Stronger, deeper currents"
 	quest.56CCFFCF62914EAD.title: "Routing Upgrades"
-	quest.58BFF5F125C45616.quest_desc: [ ]
-	quest.58BFF5F125C45616.quest_subtitle: ""
-	quest.58BFF5F125C45616.title: ""
-	quest.5A896BABF15520EF.quest_desc: [ ]
-	quest.5A896BABF15520EF.quest_subtitle: ""
-	quest.5A896BABF15520EF.title: ""
 	quest.60CC4446A2280152.title: "Sentient Tools"
 	quest.6117BC77F2F38AD9.quest_subtitle: "Circles inscribed by hand"
 	quest.6117BC77F2F38AD9.title: "The Alchemy Array"
+	quest.61E2740D6817748E.quest_desc: [
+		"Neo Vitae is a modern blood magic mod based on, well, Blood Magic."
+		""
+		"You first step on the journey of Vitaemancy is to construct the &6Ara Vitae&r. It's initially bare, but will suffice for now."
+	]
 	quest.61E2740D6817748E.quest_subtitle: "A journey written in blood"
 	quest.61E2740D6817748E.title: "Neo Vitae"
 	quest.66827D0DD7CCD3E7.quest_subtitle: "The Currency of the Soul"
 	quest.66827D0DD7CCD3E7.title: "Harvesting Spiritus"
 	quest.711C0EFAB083E742.quest_subtitle: "Unsettling beauty"
 	quest.736C00F917B82E90.title: "Disenchanting"
-	quest.76B120695C2B8B05.quest_desc: [ ]
-	quest.76B120695C2B8B05.quest_subtitle: ""
-	quest.76B120695C2B8B05.title: ""
+	quest.78A828BF48F3F449.quest_desc: [
+		"Another sixteen runes allow you to elevate the &6altar&r again, making a potential twenty-four upgrades available. Around it, four pillars capped with Blood Stained Glass guide the &4essence&r to the Tier III &6Ara&r."
+		""
+		"{image:atm:textures/questpics/neovitae/ara_t3.png width:150 height:101 align:center}"
+	]
 	quest.78A828BF48F3F449.quest_subtitle: "The altar's hunger deepens."
 	quest.78A828BF48F3F449.title: "Ara Tier III"
 	quest.78F33537180B2D6E.quest_subtitle: "Stepping beyond the Threshold"
@@ -91,14 +103,23 @@
 	quest.7D5A6EBC2BBB94F1.quest_subtitle: "Orb Tier V"
 	quest.7D9CBB016F387B6A.quest_subtitle: "An altar fuelled by Hellfire"
 	quest.7D9CBB016F387B6A.title: "Reinforced Runes"
+	quest.7EFBC608C187C4DE.quest_desc: [
+		"Your first offering to the altar is a single diamond. Place it into the &6Ara Vitae&r and stand beside it. It draws from your &4vitality&r to transfigure the offering into a &cNovicius Orb of Vitae&r."
+		""
+		"The &cOrb&r allows you to willingly sacrifice your &4Essentia Vitae&r, the currency of the blood, to the altar by right-clicking while standing by it, or stores it for later while away. To spare your own veins, an &cOrb of Vitae&r in your off-hand will harvest from those you slay."
+	]
 	quest.7EFBC608C187C4DE.quest_subtitle: "Orb Tier Zero"
 	quest.7F06AA94D8203429.quest_subtitle: "The Vitaemancer's Anvil"
 	quest.7F5A61C910DDAFFB.title: "Spiritus Gems"
 	task.03A0A267BBE435EA.title: "Kill the Foreman"
 	task.076BFD9CD37072E7.title: "Any Sentient Armor Piece"
-	task.4C443B7B56520793.title: "Bloodstone Blocks"
+	task.1EC0CD3DC4051872.title: "48x Runes"
+	task.4C22D821E63EF9F7.title: "16x Runes"
+	task.4C443B7B56520793.title: "4x Bloodstone Blocks"
+	task.632FA8B62978FD9F.title: "72x Runes"
 	task.6D5BE02E9FAED45C.title: "AllRightsReserved"
-	task.71F56B7D116E5CB9.title: "Crystal Clusters"
+	task.71F56B7D116E5CB9.title: "4x Crystal Clusters"
+	task.77D872D6DD03B4C4.title: "28x Runes"
 	task.78A6CE5BD71457AD.title: "Any Cutting Fluid"
 	task.7DA13EB040BC1C19.title: "AllRightsReserved"
 }
