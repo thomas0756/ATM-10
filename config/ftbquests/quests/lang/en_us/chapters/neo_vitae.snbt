@@ -14,6 +14,7 @@
 	quest.1F127DF65F360647.title: "The Mines"
 	quest.1F4824994F6CDAFA.quest_subtitle: "Aura Farming...?"
 	quest.1F4824994F6CDAFA.title: "Burning Spiritus"
+	quest.206BD489C4CD4FD4.quest_desc: ["Offering a Redstone Block to the &6altar&r rewards you with a greater &9Orb&r, allowing you to craft more powerful items, including the Arcane Scribe Tool."]
 	quest.206BD489C4CD4FD4.quest_subtitle: "Orb Tier I"
 	quest.2072F1FCBAC1991A.quest_desc: [
 		"One hundred and seventy-two runes. The pinnacle of Vitaemancy. Crystal clusters forged with remnants of the Deep Dark and the Wither cap off the Tier VI &6Ara Vitae&r."
@@ -51,10 +52,22 @@
 	]
 	quest.286C9B7D5F16D05C.quest_subtitle: "The Ara groans with barely-contained power."
 	quest.286C9B7D5F16D05C.title: "Ara Tier IV"
+	quest.2A1CBBFF9F40A2E1.quest_desc: [
+		"Before you attempt your first ritual, it's worth taking the time to understand the &5Anima Network&r. It's your invisible storage of &4Essentia Vitae&r across chunks and dimensions, and the &eDivination Sigil&r is your eye into it."
+		""
+		"The capacity of your &5Anima&r is determined by your &9Orb&r. To check how full it is, use the &esigil&r on empty air."
+		""
+		"Placing an &9Orb&r with stored &4EV&r into an &6Ara&r will drain it to quickly fill the &6altar&r. If it's already full, the &4EV&r will fill your &5Anima&r instead."
+	]
 	quest.2A1CBBFF9F40A2E1.quest_subtitle: "A lens into the unseen"
 	quest.2A1CBBFF9F40A2E1.title: "The Anima Network"
 	quest.2AC336C29FA5B990.quest_subtitle: "Did somebody say pattern provider?"
 	quest.2AC336C29FA5B990.title: "The Routing Network"
+	quest.2B80B9B87D3D586D.quest_desc: [
+		"Weaving your &4Essentia Vitae&r into the brewing process allows you to transcend the limitations of traditional alchemy."
+		""
+		"In addition to making several new effects available, these elixirs can contain combinations of regular potion effects. To do so, simply use an existing flask in place of an empty one."
+	]
 	quest.2B80B9B87D3D586D.quest_subtitle: "Elixirs worthy of the name"
 	quest.337C20F81B4701B7.title: "Slimes of Vitae"
 	quest.374C299FCEA3E243.quest_subtitle: "A darker method of cultivation"
@@ -67,11 +80,24 @@
 	quest.3FE985383428D23D.title: "Ore Processing"
 	quest.41FAB9A31125F9E6.quest_subtitle: "Inscribing circles of greater power"
 	quest.41FAB9A31125F9E6.title: "Rituals"
+	quest.423BC6A088DFA15E.quest_desc: [
+		"Crafting is only the beginning of the Alchemy Array. Its utility extends to environmental controls, defenses, traps and even simple farms."
+		""
+		"There's too much to cover with quests alone, so check the &4Scriptura Vitae&r if you're curious."
+	]
 	quest.423BC6A088DFA15E.title: "Beyond Crafting"
 	quest.424F68635A22A0DE.title: "Aspected Crystals"
 	quest.467D5423924F6630.title: "Capacity Rune"
 	quest.46A33EFA9641F0BE.quest_subtitle: "Ore mined from Hell itself"
 	quest.46A33EFA9641F0BE.title: "Mining for Demonite"
+	quest.48241C5AA8ABFA16.quest_desc: [
+		"Where Elixirs empower the body, anointments empower the hand."
+		""
+		"Like enchantments, they are applied to your equipment but, unlike enchantments, they decay with every use of the tool until there is nothing left and they must be reapplied."
+		""
+		"Fortunately, it is possible to extend the lifetime of your anointments using &cTau Oil&r and &3Hellforged Dust&r as you progress the art."
+	]
+	quest.48241C5AA8ABFA16.title: "Anointments"
 	quest.4FD5066EED19F5F1.title: "Better Tabulae"
 	quest.50815F48B9179B1F.quest_desc: [
 		"Tabula Rasa is the fundamental substrate for all of a Vitaemancer's runes and sigils. It's crafted in the &6Ara&r from deepslate."
@@ -87,6 +113,7 @@
 		"Speaking of durability, all &bSentient equipment&r can be repaired in an anvil using crystallized &bSpiritus&r."
 	]
 	quest.60CC4446A2280152.title: "Sentient Tools"
+	quest.6117BC77F2F38AD9.quest_desc: ["Before rituals, sigils and the greater workings of Vitaemancy, there was the Alchemy Array. After inscribing runes into the ground, a Vitaemancer can craft reagents and sigils on the floor in front of them by adding ingredients to the circle."]
 	quest.6117BC77F2F38AD9.quest_subtitle: "Circles inscribed by hand"
 	quest.6117BC77F2F38AD9.title: "The Alchemy Array"
 	quest.61E2740D6817748E.quest_desc: [
